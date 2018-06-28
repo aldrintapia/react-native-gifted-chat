@@ -155,7 +155,7 @@ export default class Bubble extends React.Component {
             accessibilityTraits="text"
             {...this.props.touchableProps}
           >
-            <View>
+            <View style={{flex:1}}>
               {this.renderCustomView()}
               {this.renderMessageImage()}
               {this.renderMessageText()}
