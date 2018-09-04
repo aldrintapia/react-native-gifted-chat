@@ -78,7 +78,7 @@ export default class MessageText extends React.Component {
             styles[this.props.position].text,
             this.props.textStyle[this.props.position],
             this.props.customTextStyle,
-            {marginTop:{(this.props.currentMessage.isOffline)?10:0}
+            {marginTop:(this.props.currentMessage.isOffline)?15:0}
           ]}
           parse={[
             ...this.props.parsePatterns(linkStyle),
